@@ -3,7 +3,6 @@ echo -e "
 -------------------------------------
 -- made by 13rocky-dev | https://github.com/13rocky-dev/v2ray-bbr-plus | 博客 blog.bqclou.tk --
 v2-ui&bbr-plus 一键安装脚本
-
     1. 安装 v2-ui
     2. 安装 BBR PLUS
 "
