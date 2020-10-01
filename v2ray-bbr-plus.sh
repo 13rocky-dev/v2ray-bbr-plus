@@ -19,6 +19,7 @@ if (($chosen==1));then
 elif (($chosen==2));then
         wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 else
-        bash <(curl -Ls auto_v2ray.sh)
+        echo "输入命令有误"
+        wget -N --no-check-certificate "https://raw.githubusercontent.com/13rocky-dev/v2ray-bbr-plus/master/v2ray-bbr-plus.sh" && chmod +x v2ray-bbr-plus.sh && ./v2ray-bbr-plus.sh
 fi
 
